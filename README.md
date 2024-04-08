@@ -6,6 +6,8 @@ Object-Relational Mapping is the technique of accessing a relational database us
 
 `instance => row`
 
+`attribute => column`
+
 By convention, we'll pluralize the name of the class to create the name of the table.
 
 `Pet => pets`
@@ -24,6 +26,9 @@ For *writing to* the database:
 ----
 *Question - Which of the above methods are instance methods?*  
 
+*save, update, and delete. Because of (self)-instance methods belong to instance*
+
+*the class methods belong to the class. So the class creates the table, drops the table, creates and instance.*
 ----
 <br>
 
