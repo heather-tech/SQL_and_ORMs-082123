@@ -29,6 +29,7 @@ For *writing to* the database:
 *save, update, and delete. Because of (self)-instance methods belong to instance*
 
 *the class methods belong to the class. So the class creates the table, drops the table, creates an instance.*
+
 ----
 <br>
 
